@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <h1>Loja</h1>
-    </div>
+    <q-page class="bg-accent">
+        <p>Loja</p>
+    </q-page>
 </template>
 
 <script>

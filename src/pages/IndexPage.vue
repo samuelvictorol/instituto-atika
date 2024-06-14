@@ -56,7 +56,7 @@
       >
     </div>
     <p class="q-px-md text-card text-center q-mt-md q-py-md text-bold">
-      <q-btn label="Sobre o Projeto" icon="help" icon-right="skip_next" color="primary" @click="goto('/sobre')"/>
+      <q-btn  label="Sobre o Projeto" icon="help" icon-right="skip_next" color="primary" @click="goto('/sobre')"/>
     </p>
     <div class="w100 row justify-center ">
       <img
@@ -67,7 +67,7 @@
     <div style="border-top: 24px solid #E8D4A0;" class="text-h6 q-pt-md text-center text-primary">🌍 Onde nos Encontrar ?</div>
     <iframe class="q-mt-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.4856211157776!2d-47.971570531451185!3d-16.092160610856578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935985fb8ad5237f%3A0xae60a41becde95ac!2sArena%20%C3%81tika%20Futev%C3%B4lei!5e0!3m2!1spt-BR!2sbr!4v1718389921647!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="column justify-center items-center bg-primary q-py-lg">
-      <a href="">
+      <a target="_blank" href="https://www.instagram.com/institutoatika/">
         <img
         class="rounded-borders"
           style="width:140px"
@@ -75,7 +75,7 @@
           src="~assets/insta.png"
         >
       </a>
-      <a style="filter: invert(1); border:2px solid black; border-radius:4px" target="_blank" class="q-pa-sm q-mt-sm row justify-center items-center" href="https://www.instagram.com/arenaatika/">
+      <a style="filter: grayscale(1) invert(1); border:2px solid black; border-radius:4px" target="_blank" class="q-pa-sm q-mt-sm row text-bold justify-center items-center" href="https://www.instagram.com/arenaatika/">
         <img
         style="width:20px"
           src="~assets/insta.svg"

@@ -34,8 +34,8 @@
               src="~assets/img5.png"
             >
         </div>
-        <div class="row">
-            <q-btn label="Conheça nossa Loja e ainda ajude o projeto!" color="primary" icon="store" class="q-pa-md" @click="goTo('/loja')"/>
+        <div class="w100 row">
+            <q-btn label="Conheça nossa Loja e ainda ajude o projeto!" color="primary" icon="store" class="w100 q-pa-md" @click="goTo('/loja')"/>
         </div>
         <div class="w100 row justify-center items-center q-mt-md">
           <img src="~assets/insta.svg" style="width:30px" alt="">
@@ -49,7 +49,7 @@
             >
           </div>
           <div class="w100 bg-accent q-py-md row justify-center ">
-            <a href="">
+            <a target="_blank" href="https://www.instagram.com/institutoatika/">
                 <img
                 class="rounded-borders"
                   style="width:140px"
