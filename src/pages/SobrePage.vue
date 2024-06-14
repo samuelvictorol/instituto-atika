@@ -1,6 +1,6 @@
 <template>
     <q-page class="bg-accent">
-        <div class="w100 row justify-center ">
+        <div class="w100 row justify-center animate__animated animate__fadeIn animate__slow">
             <img
             class="q-pt-lg"
               alt="Quasar logo"

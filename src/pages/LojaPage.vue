@@ -1,5 +1,5 @@
 <template>
-    <q-page class="relative bg-accent column items-center">
+    <q-page class="relative bg-accent column items-center animate__animated animate__fadeIn animate__slow">
         <div class="text-h4 q-py-md text-primary text-center">Loja</div>
         <p class="text-center text-bold text-info">🚧 Loja em construção 🏗️<br>Em breve nossos produtos estarão disponíveis🛠️</p>
         <img class="w80" src="~assets/drawn1.svg" alt="">

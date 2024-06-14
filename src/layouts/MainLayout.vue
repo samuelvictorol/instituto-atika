@@ -19,7 +19,7 @@
 
         <q-list class="text-white q-pt-md q-pl-sm">
           <template v-for="(menuItem, index) in tabItems" :key="index">
-            <q-item clickable :active="menuItem.label === 'Outbox'" v-ripple>
+            <q-item @click="goto(menuItem.to)" clickable :active="menuItem.label === 'Outbox'" v-ripple>
               <q-item-section avatar>
                 <q-icon :color="menuItem.iconColor" :name="menuItem.iconName" />
               </q-item-section>
@@ -42,8 +42,14 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
 
+const router = useRouter()
 const rightDrawerOpen = ref(false)
+
+function goto(to) {
+  router.push(to)
+}	
 
 const tabItems = ref([
   { label: 'Início', iconName: 'home', to: '/', iconColor:'yellow-2' },

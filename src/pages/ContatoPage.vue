@@ -1,5 +1,5 @@
 <template>
-    <q-page class="relative bg-accent column items-center">
+    <q-page class="relative bg-accent column items-center animate__animated animate__fadeIn animate__slow">
         <div class="text-h4 text-primary text-center q-py-md">Contato ✉️</div>
         <div class="q-mt-md column q-gutter-y-md justify-center items-center form-contato w80">
             <q-input maxlength="100" outlined class="w100 bg-white" label="Nome Completo*"/>

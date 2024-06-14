@@ -1,5 +1,5 @@
 <template>
-  <q-page class="bg-accent">
+  <q-page class="bg-accent animate__animated animate__fadeIn animate__slow">
     <div class="w100 row justify-center ">
       <img
       class="q-pt-lg"
@@ -83,17 +83,25 @@
         <span class=" text-black q-pl-sm">Arena Átika</span>
       </a>
     </div>
+    <LoadingComponent v-if="loading" />
   </q-page>
 </template>
 
 <script setup>
+import LoadingComponent from 'src/components/LoadingComponent.vue';
+import { onBeforeMount, ref } from 'vue';
 import { useRouter } from 'vue-router'
 const router = useRouter()
-
+const loading = ref(true)
 function goto (to) {
   router.push(to)
 }
 
+onBeforeMount(() => {
+  setTimeout(() => {
+    loading.value = false
+  }, 4000) 
+})
 </script>
 <style scoped>
 .text-card {
