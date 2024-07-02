@@ -1,13 +1,13 @@
 <template>
-    <q-page class="bg-accent">
+    <q-page class="bg-primary">
         <div class="w100 row justify-center animate__animated animate__fadeIn animate__slow">
             <img
             class="q-pt-lg"
               alt="Quasar logo"
-              src="~assets/sobreimg.png"
+              src="/favicon.ico"
             >
           </div>
-          <p class="q-px-md text-card text-center q-py-md text-bold">Contribuir para o
+          <p class="q-px-md text-card bg-secondary q-mt-md text-center q-py-md text-bold">Contribuir para o
             desenvolvimento
             socioeducativo da cidade de
             Valparaiso de Goiás-GO,
@@ -39,7 +39,7 @@
         </div>
         <div class="w100 row justify-center items-center q-mt-md">
           <img src="~assets/insta.svg" style="width:30px" alt="">
-        <span class="text-h6 text-primary q-pl-md">Acompanhe-nos no Instagram!  </span>
+        <span class="text-h6 text-white q-pl-md">Acompanhe-nos no Instagram!  </span>
         </div>
         <div class="w100 row justify-center ">
             <img
@@ -48,11 +48,11 @@
               src="~assets/img2.png"
             >
           </div>
-          <div class="w100 bg-accent q-py-md row justify-center ">
+          <div class="w100 bg-primary q-py-md row justify-center ">
             <a target="_blank" href="https://www.instagram.com/institutoatika/">
                 <img
                 class="rounded-borders"
-                  style="width:140px"
+                  style="width:140px; filter:grayscale(1)"
                   alt="instagram logo"
                   src="~assets/insta.png"
                 >

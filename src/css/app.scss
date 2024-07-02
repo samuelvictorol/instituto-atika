@@ -4,7 +4,7 @@
 }
 
 html{
-    background-color: #FFFCDE;
+    background-color: #201E1F;
 }
 
 .w100 {
@@ -25,4 +25,13 @@ a{
 
 .relative {
     position: relative;
+}
+
+#dev-by{
+    color: #51a8b1;
+    transition: all .2s linear;
+}
+
+#dev-by:hover{
+    color: #C4BFBB;
 }

@@ -21,7 +21,7 @@ export default {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 53, 61, 0.732);
+    background-color: rgba(23, 23, 23, 0.732);
     backdrop-filter: blur(5px);
     display: flex;
     justify-content: center;
